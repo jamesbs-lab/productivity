@@ -1,3 +1,5 @@
-import schedule from 'node-schedule'
+import {scheduleJob} from 'node-schedule'
 
-console.log(schedule)
+scheduleJob('13 * * * *', date => {
+  console.log('job run', date)
+})
