@@ -1,0 +1,7 @@
+{
+  "name": "productivity",
+  "private": true,
+  "workspaces": [
+    "packages/scheduler"
+  ]
+}

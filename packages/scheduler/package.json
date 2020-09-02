@@ -1,0 +1,12 @@
+{
+  "name": "@productivity/scheduler",
+  "version": "0.1.0",
+  "dependencies": {
+    "node-schedule": "^1.3.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node-schedule": "^1.3.0"
+  }
+}
