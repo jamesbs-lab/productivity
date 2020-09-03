@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm-run-all build:*",
     "build:web": "yarn workspace web build",
-    "build:scheduler": "yarn workspace scheduler build && netlify-lambda build packages/scheduler/build"
+    "build:scheduler": "yarn workspace scheduler build"
   },
   "dependencies": {
     "netlify-lambda": "2.0.1",
