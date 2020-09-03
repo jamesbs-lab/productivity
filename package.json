@@ -2,6 +2,9 @@
   "name": "productivity",
   "private": true,
   "workspaces": [
-    "packages/scheduler"
-  ]
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspace web build"
+  }
 }
