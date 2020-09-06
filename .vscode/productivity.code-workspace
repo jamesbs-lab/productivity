@@ -8,9 +8,13 @@
 		},
 		{
 			"path": "../packages/scheduler"
+		},
+		{
+			"path": "../packages/gateway"
 		}
 	],
 	"settings": {
-		"typescript.tsdk": "web/node_modules/typescript/lib"
+		"typescript.tsdk": "web/node_modules/typescript/lib",
+		"editor.defaultFormatter": "ms-vscode.js-debug-companion"
 	}
 }
