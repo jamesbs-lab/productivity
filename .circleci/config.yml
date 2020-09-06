@@ -1,8 +1,16 @@
 version: 2.1
 orbs:
   node: circleci/node@4.0.0
+  orbs: circleci/heroku@1.2.2
 
 jobs:
+  deploy:
+    executor: heroku/default
+    steps:
+      - checkout
+      - heroku/install
+      - heroku/deploy-via-git:
+          app-name: productivity-gateway
   test:
     executor:
       name: node/default
@@ -19,4 +27,6 @@ workflows:
   test:
     jobs:
       - test
-      
+  deploy:
+    jobs:
+      - deploy

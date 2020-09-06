@@ -9,7 +9,8 @@
     "build:web": "yarn workspace web build",
     "build:scheduler": "yarn workspace scheduler build",
     "test": "npm-run-all test:*",
-    "test:web": "yarn workspace web test"
+    "test:web": "yarn workspace web test",
+    "start:gateway": "yarn workspace gateway start"
   },
   "dependencies": {
     "netlify-lambda": "2.0.1",
