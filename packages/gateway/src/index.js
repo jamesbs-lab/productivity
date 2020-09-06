@@ -38,6 +38,8 @@ const server = new ApolloServer({ typeDefs, resolvers });
 
 server.listen({
   port: process.env.PORT || 4000,
+  introspection: true,
+  playground: true,
 }).then(({ url }) => {
   console.log(`graphql server up at ${url}`)
 })
