@@ -1,1 +1,1 @@
-productivity-gateway: yarn start:gateway
+web: yarn start:gateway
